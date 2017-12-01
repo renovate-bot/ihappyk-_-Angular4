@@ -1,0 +1,8 @@
+<div class="container" id="wsFeedsTable" >
+  <p-dataTable [value]="WsFeeds" [rows]="5" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,20]">
+    <p-column field="userId" header="User Id" [sortable]="true"></p-column>
+    <p-column field="id" header="Id" [sortable]="true"></p-column>
+    <p-column field="title" header="Title" [sortable]="true"></p-column>
+    <p-column field="body" header="Body" [sortable]="true"></p-column>
+  </p-dataTable>
+</div>
